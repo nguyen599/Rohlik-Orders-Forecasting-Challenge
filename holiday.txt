@@ -1,0 +1,102 @@
+czech_holiday = [ # para, brno
+    ('01/27/2024', 'Holocaust Remembrance Day'), #loss
+    ('01/27/2024', 'Prevention Humanity'),# loss
+    # ('02/14/2024', 'Valentine Day'), #loss maybe ness
+    (['02/26/2020', '02/14/2024', '02/17/2021', '03/02/2022', '02/22/2023'], 'Ash Wednesday'), # loss
+    ('03/12/2024', 'Day of Accession to the NATO'),
+    (['04/05/2020', '03/24/2024', '03/28/2021', '04/10/2022', '04/02/2023'], 'Palm Sunday'), #loss
+    (['04/09/2020', '03/28/2024', '04/01/2021', '04/14/2022', '04/06/2023'], 'Maundy Thursday'), #loss
+    # (['04/11/2020', '03/30/2024', '04/03/2021', '04/16/2022', '04/08/2023'], 'Holy Saturday'), #loss
+    # (['03/31/2024', '04/09/2023', '04/17/2022', '04/04/2021', '04/12/2020'], 'Easter Day'),#loss
+    # ('03/31/2024', 'Daylight Saving Time Start'),#loss
+    # ('04/07/2024', 'Day of education'),#loss
+    ('05/05/2024', 'Uprising of the Czech People'), #loss
+    (['05/12/2024', '05/10/2020', '05/09/2021', '05/08/2022', '05/14/2023'], "Mother Day"), #loss
+    ('05/15/2024', 'Family day'), #loss
+    ('06/10/2024', 'Destruction of the village of Lidice'), #loss#loss
+    ('06/27/2024', 'Victims Memorial Day'),#loss
+    # ('10/27/2024', 'Daylight Saving Time End'),#loss
+    ('11/11/2024', 'War Veterans Day'),#loss
+]
+# The provided list of holidays
+budapest_holidays = [#hung
+    ('03/15/2024', 'National Day'),#loss, recheck
+    (['03/31/2024', '04/09/2023', '04/17/2022', '04/04/2021'], 'Easter Day'),#loss
+    # (['03/31/2024', '03/26/2023'], 'Daylight Saving Time Start'),#loss
+    (['05/05/2024', '05/07/2023', '05/01/2022', '05/02/2021'], 'Mother Day'),#loss
+    # ('06/20/2024', 'Summer Solstice'),#loss
+    # ('10/27/2024', 'Daylight Saving Time End'),#loss
+    ('12/06/2024', 'St. Nicholas Day'),#loss
+    ('12/31/2024', 'New Year Eve')
+]
+[I 2024-07-07 09:27:41,937] Trial 2366 finished with value: 0.035634845570805915 and parameters: {'reg_alpha': 5.45985358432767e-07, 'reg_lambda': 1.5755770696925176e-07, 'subsample': 0.8915787123550535, 'learning_rate': 0.20169052505368054, 'n_estimators': 500, 'min_child_weight': 0.0031830775605784694, 'num_leaves': 23, 'min_child_samples': 9}. Best is trial 2366 with value: 0.035634845570805915.
+
+[I 2024-07-07 10:47:57,401] Trial 4662 finished with value: 0.033326611757815566 and parameters: {'reg_alpha': 0.22395576225297806, 'reg_lambda': 0.013055491064310818, 'subsample': 0.5509666211156066, 'learning_rate': 0.48284825276236043, 'colsample_bytree': 0.7922000123536603, 'n_estimators': 600, 'min_child_weight': 0.00010297333065138669, 'num_leaves': 14, 'min_child_samples': 10}. Best is trial 4662 with value: 0.033326611757815566.
+
+{'reg_alpha': 0.00020100989232443636, 'reg_lambda': 0.0003477579962773268, 'subsample': 0.7741617649117456, 'learning_rate': 0.11508138567993587, 'colsample_bytree': 0.410642773499639, 'n_estimators': 400, 'min_child_weight': 0.0044235188824518, 'num_leaves': 42, 'min_child_samples': 10}. Best is trial 314 with value: 0.0313692878870383.
+# bavaria - munich
+munich_holidays = [
+    # ('02/08/2024', 'Fat Thursday'),
+    (['02/10/2024', '02/18/2023', '02/26/2022', '02/13/2021'], 'Shrove Saturday'),#loss add
+    (['02/11/2024', '02/19/2023', '02/27/2022', '02/14/2021'], 'Shrove Sunday'),#loss
+    (['02/12/2024', '02/20/2023', '02/28/2022', '02/15/2021'], 'Shrove Monday'),#loss
+    (['02/13/2024', '02/21/2023', '03/01/2022', '02/16/2021'], 'Shrove Tuesday'),#loss
+    ('02/14/2024', 'Valentine Day'),#loss mayber don't ness'
+#     (['02/14/2024', '02/22/2023', '03/02/2022', '02/17/2021'], 'Ash Wednesday'),#loss maybe don't less'
+    ('03/19/2024', 'Saint Joseph'),#loss maybe don't need'
+    # ('03/20/2024', 'Spring Equinox'),
+#     (['03/24/2024', '04/02/2023', '04/10/2022', '03/28/2021'], 'Palm Sunday'),#loss maybe don't'
+#     (['03/28/2024', '04/06/2023', '04/14/2022', '04/01/2021'], 'Maundy Thursday'),#loss maybe don't'
+    (['03/30/2024', '04/08/2023', '04/16/2022', '04/03/2021'], 'Holy Saturday'),#loss
+    # ('04/30/2024', 'Walpurgis Night'),#loss maybe dodon't'
+    (['05/09/2024', '05/18/2023', '05/26/2022', '05/13/2021'], 'Fathers Day'),#loss have day
+    (['05/12/2024', '05/14/2023', '05/08/2022', '05/09/2021'], 'Mother Day'),#loss maybe don't'
+    # ('06/01/2024', 'Beginning of Summer meteorological'),
+    ('06/01/2024', 'International Children'),#loss maybe don't need'
+    ('06/17/2024', '17th June'),#loss mybe don't'
+    ('06/24/2024', 'St. John Day'),
+    ('06/29/2024', 'St. Peter and Paul'),
+    # ('10/27/2024', 'Daylight Saving Time End'),
+    ('10/31/2024', 'Halloween'),
+    ('11/11/2024', 'St. Martin Day'),
+    # ('11/17/2024', 'Remembrance Day'),
+    (['11/24/2024', '11/26/2023', '11/20/2022', '11/21/2021'], 'Memorial Day'),
+    (['12/01/2024', '12/03/2023', '11/27/2022', '11/28/2021'], 'First Sunday Advent'),
+    ('12/04/2024', 'Saint Barbara Feast Day'),
+    ('12/06/2024', 'Saint Nicholas Day'),#loss
+    (['12/08/2024', '12/10/2023', '12/04/2022', '12/05/2021'], 'Second Sunday Advent'),#loss change each year
+    (['12/15/2024', '12/17/2023', '12/11/2022', '12/12/2021'], 'Third Sunday Advent'),#loss hange each year
+    (['12/22/2024', '12/24/2023', '12/18/2022', '12/19/2021'], 'Fourth Sunday Advent'),#loss change each year
+    ('12/31/2024', 'New Year Eve')
+]
+
+# hesse - frankf
+frank_holidays = [
+    # ('02/08/2024', 'Fat Thursday'),
+    (['02/10/2024', '02/18/2023', '02/26/2022', '02/13/2021'], 'Shrove Saturday'),#loss add
+    # (['02/11/2024', '02/19/2023', '02/27/2022', '02/14/2021'], 'Shrove Sunday'),#loss
+    (['02/12/2024', '02/20/2023', '02/28/2022', '02/15/2021'], 'Shrove Monday'),#loss
+    (['02/13/2024', '02/21/2023', '03/01/2022', '02/16/2021'], 'Shrove Tuesday'),#loss
+    # ('02/14/2024', 'Valentine\'s Day'),
+#     (['02/14/2024', '02/22/2023', '03/02/2022', '02/17/2021'], 'Ash Wednesday'),#loss maybe don't less'
+    (['03/30/2024', '04/08/2023', '04/16/2022', '04/03/2021'], 'Holy Saturday'),#loss
+    ('04/30/2024', 'Walpurgis Night'),
+    (['05/09/2024', '05/18/2023', '05/26/2022', '05/13/2021'], 'Fathers Day'),#loss have day
+    (['05/12/2024', '05/14/2023', '05/08/2022', '05/09/2021'], 'Mother Day'),#loss maybe don't'
+    # ('06/01/2024', 'Beginning of Summer meteorological'),
+    ('06/01/2024', 'International Children Day'),
+    ('06/17/2024', '17th of June'),
+    ('06/24/2024', 'St. John Day'),
+    ('06/29/2024', 'St. Peter and Paul'),
+    ('11/02/2024', 'All Soul Day'),
+    ('11/11/2024', 'St. Martin Day'),
+    ('11/17/2024', 'Remembrance Day'),
+    # ('11/24/2024', 'Memorial Day'),#loss mybe don't'
+    (['12/01/2024', '12/03/2023', '11/27/2022', '11/28/2021'], 'First Sunday of Advent'),
+    ('12/04/2024', 'Saint Barbara Feast Day'),
+    ('12/06/2024', 'Saint Nicholas Day'),
+    (['12/08/2024', '12/10/2023', '12/04/2022', '12/05/2021'], 'Second Sunday Advent'),#loss change each year
+    (['12/15/2024', '12/17/2023', '12/11/2022', '12/12/2021'], 'Third Sunday Advent'),#loss hange each year
+    (['12/22/2024', '12/24/2023', '12/18/2022', '12/19/2021'], 'Fourth Sunday Advent'),#loss change each year
+    ('12/31/2024', 'New Year Eve')
+]
